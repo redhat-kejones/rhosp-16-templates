@@ -1,0 +1,12 @@
+parameter_defaults:
+  ControllerCount: 1
+  OvercloudControllerFlavor: control
+  ComputeCount: 3
+  OvercloudComputeFlavor: compute
+  CephStorageCount: 0
+  OvercloudCephStorageFlavor: ceph-storage
+  #Other Params
+  NtpServer: time.google.com
+  AdminPassword: Redhat1993
+  CephAnsiblePlaybookVerbosity: 1
+  NeutronDhcpAgentDnsmasqDnsServers: ['192.168.0.4','1.1.1.1']

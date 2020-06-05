@@ -1,0 +1,49 @@
+{
+    "arch": "x86_64",
+    "nodes": [
+        {
+            "capabilities": "profile:control",
+            "mac": [
+                "52:E3:E9:70:26:B1"
+            ],
+            "name": "node1",
+            "pm_addr": "192.168.2.201",
+            "pm_password": "p@ssw0rd",
+            "pm_type": "ipmi",
+            "pm_user": "admin"
+        },
+        {
+            "capabilities": "profile:compute",
+            "mac": [
+                "52:E3:E9:70:26:B2"
+            ],
+            "name": "node2",
+            "pm_addr": "192.168.2.202",
+            "pm_password": "p@ssw0rd",
+            "pm_type": "ipmi",
+            "pm_user": "admin"
+        },
+        {
+            "capabilities": "profile:compute",
+            "mac": [
+                "52:E3:E9:70:26:B3"
+            ],
+            "name": "node3",
+            "pm_addr": "192.168.2.203",
+            "pm_password": "p@ssw0rd",
+            "pm_type": "ipmi",
+            "pm_user": "admin"
+        },
+        {
+            "capabilities": "profile:compute",
+            "mac": [
+                "52:E3:E9:70:26:B4"
+            ],
+            "name": "node4",
+            "pm_addr": "192.168.2.204",
+            "pm_password": "p@ssw0rd",
+            "pm_type": "ipmi",
+            "pm_user": "admin"
+        }
+    ]
+}
